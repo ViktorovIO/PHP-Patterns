@@ -16,7 +16,7 @@ class BuilderTest extends TestCase
     public function test_buildBikeProduct(): void
     {
         $productBuilderFactory = new ProductBuilderFactory();
-        $bikeBuilder = (new ProductBuilderFactory())->makeByProductType(ProductTypeEnum::BIKE);
+        $bikeBuilder = $productBuilderFactory->makeByProductType(ProductTypeEnum::BIKE);
         $actual = $bikeBuilder->build();
 
         $this->assertInstanceOf(Bike::class, $actual);
