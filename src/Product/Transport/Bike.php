@@ -1,8 +1,10 @@
 <?php
 
-namespace Product;
+namespace Product\Transport;
 
-class Bus implements ProductInterface
+use Product\ProductInterface;
+
+class Bike implements ProductInterface
 {
     private ?int $id;
     private string $name = '';
@@ -29,6 +31,6 @@ class Bus implements ProductInterface
 
     public function someOperation(): string
     {
-        return 'someOperation for Bus';
+        return 'someOperation for Bike';
     }
 }

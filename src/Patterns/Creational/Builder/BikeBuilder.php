@@ -2,7 +2,7 @@
 
 namespace Patterns\Creational\Builder;
 
-use Product\Bike;
+use Product\Transport\Bike;
 
 class BikeBuilder implements ProductBuilderInterface
 {

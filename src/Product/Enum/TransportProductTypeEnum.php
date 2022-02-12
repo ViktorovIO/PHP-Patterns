@@ -2,7 +2,7 @@
 
 namespace Product\Enum;
 
-final class ProductTypeEnum
+final class TransportProductTypeEnum
 {
     public const BIKE = 'bike';
     public const BUS = 'bus';

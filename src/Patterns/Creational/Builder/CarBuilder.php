@@ -2,7 +2,7 @@
 
 namespace Patterns\Creational\Builder;
 
-use Product\Car;
+use Product\Transport\Car;
 
 class CarBuilder implements ProductBuilderInterface
 {

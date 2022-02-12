@@ -2,7 +2,7 @@
 
 namespace Patterns\Creational\Builder;
 
-use Product\Bus;
+use Product\Transport\Bus;
 
 class BusBuilder implements ProductBuilderInterface
 {

@@ -3,10 +3,10 @@
 namespace Patterns\Creational\Builder;
 
 use Exception;
-use Product\Bike;
-use Product\Bus;
-use Product\Car;
-use Product\Enum\ProductTypeEnum;
+use Product\Transport\Bike;
+use Product\Transport\Bus;
+use Product\Transport\Car;
+use Product\Enum\TransportProductTypeEnum;
 
 /**
  * @group unit
@@ -16,7 +16,7 @@ class BuilderTest extends TestCase
     public function test_buildBikeProduct(): void
     {
         $productBuilderFactory = new ProductBuilderFactory();
-        $bikeBuilder = $productBuilderFactory->makeByProductType(ProductTypeEnum::BIKE);
+        $bikeBuilder = $productBuilderFactory->makeByProductType(TransportProductTypeEnum::BIKE);
         $actual = $bikeBuilder->build();
 
         $this->assertInstanceOf(Bike::class, $actual);
@@ -25,7 +25,7 @@ class BuilderTest extends TestCase
     public function test_buildBusProduct(): void
     {
         $productBuilderFactory = new ProductBuilderFactory();
-        $busBuilder = $productBuilderFactory->makeByProductType(ProductTypeEnum::BUS);
+        $busBuilder = $productBuilderFactory->makeByProductType(TransportProductTypeEnum::BUS);
         $actual = $busBuilder->build();
 
         $this->assertInstanceOf(Bus::class, $actual);
@@ -34,7 +34,7 @@ class BuilderTest extends TestCase
     public function test_buildCarProduct(): void
     {
         $productBuilderFactory = new ProductBuilderFactory();
-        $carBuilder = $productBuilderFactory->makeByProductType(ProductTypeEnum::CAR);
+        $carBuilder = $productBuilderFactory->makeByProductType(TransportProductTypeEnum::CAR);
         $actual = $carBuilder->build();
 
         $this->assertInstanceOf(Car::class, $actual);

@@ -1,20 +1,22 @@
 <?php
 
-namespace Product;
+namespace Product\OS;
 
-class Car implements ProductInterface
+use Product\ProductInterface;
+
+class Windows implements ProductInterface
 {
     private ?int $id;
     private string $name = '';
 
     public function getId(): ?int
     {
-      return $this->id;
+        return $this->id;
     }
 
     public function setId(int $id): void
     {
-      $this->id = $id;
+        $this->id = $id;
     }
 
     public function getName(): string
@@ -29,6 +31,6 @@ class Car implements ProductInterface
 
     public function someOperation(): string
     {
-        return 'someOperation for Car';
+        return 'someOperation for Windows';
     }
 }

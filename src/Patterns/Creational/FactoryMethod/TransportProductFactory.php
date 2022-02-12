@@ -3,22 +3,23 @@
 namespace Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Product\Bike;
-use Product\Bus;
-use Product\Car;
+use Patterns\Creational\AbstractFactory\ProductFactoryInterface;
+use Product\Transport\Bike;
+use Product\Transport\Bus;
+use Product\Transport\Car;
 use Product\ProductInterface;
-use Product\Enum\ProductTypeEnum;
+use Product\Enum\TransportProductTypeEnum;
 
-class ProductFactory extends FactoryAbstract
+class TransportProductFactory extends FactoryAbstract implements ProductFactoryInterface
 {
     public function make(string $productType): ProductInterface
     {
         switch ($productType) {
-            case ProductTypeEnum::BIKE:
+            case TransportProductTypeEnum::BIKE:
                 return new Bike();
-            case ProductTypeEnum::BUS:
+            case TransportProductTypeEnum::BUS:
                 return new Bus();
-            case ProductTypeEnum::CAR:
+            case TransportProductTypeEnum::CAR:
                 return new Car();
             default:
                 throw new Exception(sprintf('Product with type %s not found', $productType));

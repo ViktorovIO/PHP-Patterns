@@ -3,36 +3,36 @@
 namespace Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Product\Bike;
-use Product\Bus;
-use Product\Car;
-use Product\Enum\ProductTypeEnum;
+use Product\Transport\Bike;
+use Product\Transport\Bus;
+use Product\Transport\Car;
+use Product\Enum\TransportProductTypeEnum;
 
 /**
  * @group unit
  */
-class ProductFactoryTest extends TestCase
+class TransportProductFactoryTest extends TestCase
 {
     public function test_makeBikeProduct(): void
     {
-        $productFactory = new ProductFactory();
-        $bike = $productFactory->make(ProductTypeEnum::BIKE);
+        $productFactory = new TransportProductFactory();
+        $bike = $productFactory->make(TransportProductTypeEnum::BIKE);
 
         $this->assertInstanceOf(Bike::class, $bike);
     }
 
     public function test_makeBusProduct(): void
     {
-        $productFactory = new ProductFactory();
-        $bus = $productFactory->make(ProductTypeEnum::BUS);
+        $productFactory = new TransportProductFactory();
+        $bus = $productFactory->make(TransportProductTypeEnum::BUS);
 
         $this->assertInstanceOf(Bus::class, $bus);
     }
 
     public function test_makeCarProduct(): void
     {
-        $productFactory = new ProductFactory();
-        $car = $productFactory->make(ProductTypeEnum::CAR);
+        $productFactory = new TransportProductFactory();
+        $car = $productFactory->make(TransportProductTypeEnum::CAR);
 
         $this->assertInstanceOf(Car::class, $car);
     }
@@ -41,7 +41,7 @@ class ProductFactoryTest extends TestCase
     {
         $this->expectException(Exception::class, 'Product with type Unknown type not found');
 
-        $productFactory = new ProductFactory();
+        $productFactory = new TransportProductFactory();
         $productFactory->make('Unknown type');
     }
 }
