@@ -8,6 +8,7 @@ class Bus implements ProductInterface
 {
     private ?int $id;
     private string $name = '';
+    private int $speed = 0;
 
     public function getId(): ?int
     {
@@ -27,6 +28,16 @@ class Bus implements ProductInterface
     public function setName(string $name): void
     {
         $this->name = $name;
+    }
+
+    public function getSpeed(): int
+    {
+        return $this->speed;
+    }
+
+    public function setSpeed(int $speed): void
+    {
+        $this->speed = $speed;
     }
 
     public function someOperation(): string
