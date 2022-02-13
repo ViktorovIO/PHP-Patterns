@@ -3,10 +3,10 @@
 namespace Patterns\Creational\FactoryMethod;
 
 use Exception;
+use Product\Enum\TransportProductTypeEnum;
 use Product\Transport\Bike;
 use Product\Transport\Bus;
 use Product\Transport\Car;
-use Product\Enum\TransportProductTypeEnum;
 
 /**
  * @group unit
