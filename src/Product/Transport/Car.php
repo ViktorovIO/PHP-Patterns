@@ -7,6 +7,7 @@ use Product\ProductInterface;
 class Car implements ProductInterface
 {
     private ?int $id;
+    private string $type;
     private string $name = '';
     private int $speed = 0;
 
@@ -18,6 +19,16 @@ class Car implements ProductInterface
     public function setId(int $id): void
     {
       $this->id = $id;
+    }
+
+    public function getType(): string
+    {
+        return $this->type;
+    }
+
+    public function setType(string $type): void
+    {
+        $this->type = $type;
     }
 
     public function getName(): string

@@ -8,6 +8,7 @@ class Windows implements ProductInterface
 {
     private ?int $id;
     private string $name = '';
+    private string $version = '';
 
     public function getId(): ?int
     {
@@ -32,5 +33,15 @@ class Windows implements ProductInterface
     public function someOperation(): string
     {
         return 'someOperation for Windows';
+    }
+
+    public function getVersion(): string
+    {
+        return $this->version;
+    }
+
+    public function setVersion(string $version): void
+    {
+        $this->version = $version;
     }
 }

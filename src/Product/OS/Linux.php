@@ -2,12 +2,13 @@
 
 namespace Product\OS;
 
-use Product\ProductInterface;
+use Product\Transport\OSProductInterface;
 
-class Linux implements ProductInterface
+class Linux implements OSProductInterface
 {
     private ?int $id;
     private string $name = '';
+    private string $version = '';
 
     public function getId(): ?int
     {
@@ -32,5 +33,15 @@ class Linux implements ProductInterface
     public function someOperation(): string
     {
         return 'someOperation for Linux';
+    }
+
+    public function getVersion(): string
+    {
+        return $this->version;
+    }
+
+    public function setVersion(string $version): void
+    {
+        $this->version = $version;
     }
 }
