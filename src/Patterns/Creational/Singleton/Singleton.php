@@ -1,6 +1,6 @@
 <?php
 
-namespace Patterns\Creational\Singleton;
+namespace ViktorovIO\Library\Patterns\Creational\Singleton;
 
 class Singleton
 {

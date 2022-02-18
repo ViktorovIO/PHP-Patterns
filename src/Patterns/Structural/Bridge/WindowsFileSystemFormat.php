@@ -1,9 +1,9 @@
 <?php
 
-namespace Patterns\Structural\Bridge;
+namespace ViktorovIO\Library\Patterns\Structural\Bridge;
 
-use Product\Enum\OSFileSystemFormatEnum;
-use Product\Enum\OSProductTypeEnum;
+use ViktorovIO\Library\Product\Enum\OSFileSystemFormatEnum;
+use ViktorovIO\Library\Product\Enum\OSProductTypeEnum;
 
 class WindowsFileSystemFormat implements OSFileSystemFormatInterface
 {

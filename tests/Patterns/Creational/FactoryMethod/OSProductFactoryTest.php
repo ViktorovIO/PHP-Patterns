@@ -1,12 +1,12 @@
 <?php
 
-namespace Patterns\Creational\FactoryMethod;
+namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Product\OS\Linux;
-use Product\OS\MacOS;
-use Product\OS\Windows;
-use Product\Enum\OSProductTypeEnum;
+use ViktorovIO\Library\Product\OS\Linux;
+use ViktorovIO\Library\Product\OS\MacOS;
+use ViktorovIO\Library\Product\OS\Windows;
+use ViktorovIO\Library\Product\Enum\OSProductTypeEnum;
 
 /**
  * @group unit

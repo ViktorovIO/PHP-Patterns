@@ -1,10 +1,10 @@
 <?php
 
-namespace Product\OS;
+namespace ViktorovIO\Library\Product\OS;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\Transport\OSProductInterface;
 
-class MacOS implements ProductInterface
+class MacOS implements OSProductInterface
 {
     private ?int $id;
     private string $name = '';

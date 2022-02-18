@@ -1,9 +1,9 @@
 <?php
 
-namespace Patterns\Creational\Builder;
+namespace ViktorovIO\Library\Patterns\Creational\Builder;
 
 use Exception;
-use Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
 
 class ProductBuilderFactory
 {

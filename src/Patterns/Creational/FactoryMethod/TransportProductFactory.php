@@ -1,14 +1,14 @@
 <?php
 
-namespace Patterns\Creational\FactoryMethod;
+namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Patterns\Creational\AbstractFactory\ProductFactoryInterface;
-use Product\Transport\Bike;
-use Product\Transport\Bus;
-use Product\Transport\Car;
-use Product\ProductInterface;
-use Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Patterns\Creational\AbstractFactory\ProductFactoryInterface;
+use ViktorovIO\Library\Product\Transport\Bike;
+use ViktorovIO\Library\Product\Transport\Bus;
+use ViktorovIO\Library\Product\Transport\Car;
+use ViktorovIO\Library\Product\ProductInterface;
+use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
 
 class TransportProductFactory extends FactoryAbstract implements ProductFactoryInterface
 {

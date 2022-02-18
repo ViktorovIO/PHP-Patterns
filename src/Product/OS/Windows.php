@@ -1,10 +1,10 @@
 <?php
 
-namespace Product\OS;
+namespace ViktorovIO\Library\Product\OS;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\Transport\OSProductInterface;
 
-class Windows implements ProductInterface
+class Windows implements OSProductInterface
 {
     private ?int $id;
     private string $name = '';

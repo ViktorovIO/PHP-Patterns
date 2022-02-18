@@ -1,6 +1,6 @@
 <?php
 
-namespace Supplier\Response;
+namespace ViktorovIO\Library\Supplier\Response;
 
 class CarResponse
 {

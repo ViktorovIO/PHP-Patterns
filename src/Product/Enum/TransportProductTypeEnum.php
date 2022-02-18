@@ -1,6 +1,6 @@
 <?php
 
-namespace Product\Enum;
+namespace ViktorovIO\Library\Product\Enum;
 
 final class TransportProductTypeEnum
 {

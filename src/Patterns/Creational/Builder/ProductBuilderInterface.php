@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Creational\Builder;
+namespace ViktorovIO\Library\Patterns\Creational\Builder;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\ProductInterface;
 
 interface ProductBuilderInterface
 {

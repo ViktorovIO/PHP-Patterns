@@ -1,8 +1,8 @@
 <?php
 
-namespace Product\Transport;
+namespace ViktorovIO\Library\Product\Transport;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\ProductInterface;
 
 interface OSProductInterface extends ProductInterface
 {

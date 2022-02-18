@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Structural\Adapter\Transport;
+namespace ViktorovIO\Library\Patterns\Structural\Adapter\Transport;
 
-use Supplier\Response\CarResponse;
+use ViktorovIO\Library\Supplier\Response\CarResponse;
 
 class CarAdapter
 {

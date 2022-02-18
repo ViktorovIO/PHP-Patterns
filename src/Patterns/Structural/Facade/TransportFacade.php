@@ -3,7 +3,7 @@
 namespace Patterns\Structural\Facade;
 
 use Product\Enum\TransportProductTypeEnum;
-use Product\Transport\TransportProductInterface;
+use ViktorovIO\Product\Transport\TransportProductInterface;
 use Product\Transport\TransportRepository;
 
 class TransportFacade

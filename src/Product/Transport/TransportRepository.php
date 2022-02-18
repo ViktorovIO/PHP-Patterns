@@ -1,10 +1,10 @@
 <?php
 
-namespace Product\Transport;
+namespace ViktorovIO\Product\Transport;
 
 use Doctrine\DBAL\Connection;
 use Exception;
-use Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
 
 class TransportRepository
 {

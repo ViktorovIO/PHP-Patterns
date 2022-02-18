@@ -1,12 +1,12 @@
 <?php
 
-namespace Patterns\Creational\FactoryMethod;
+namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Product\Enum\TransportProductTypeEnum;
-use Product\Transport\Bike;
-use Product\Transport\Bus;
-use Product\Transport\Car;
+use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Product\Transport\Bike;
+use ViktorovIO\Library\Product\Transport\Bus;
+use ViktorovIO\Library\Product\Transport\Car;
 
 /**
  * @group unit

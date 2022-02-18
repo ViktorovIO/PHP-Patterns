@@ -1,6 +1,6 @@
 <?php
 
-namespace Patterns\Structural\Bridge;
+namespace ViktorovIO\Library\Patterns\Structural\Bridge;
 
 interface OSFileSystemFormatInterface
 {

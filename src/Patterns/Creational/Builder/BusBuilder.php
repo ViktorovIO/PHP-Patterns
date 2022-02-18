@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Creational\Builder;
+namespace ViktorovIO\Library\Patterns\Creational\Builder;
 
-use Product\Transport\Bus;
+use ViktorovIO\Library\Product\Transport\Bus;
 
 class BusBuilder implements ProductBuilderInterface
 {

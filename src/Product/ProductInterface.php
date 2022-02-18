@@ -1,6 +1,6 @@
 <?php
 
-namespace Product;
+namespace ViktorovIO\Library\Product;
 
 interface ProductInterface
 {

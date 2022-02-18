@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Creational\AbstractFactory;
+namespace ViktorovIO\Library\Patterns\Creational\AbstractFactory;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\ProductInterface;
 
 interface ProductFactoryInterface
 {

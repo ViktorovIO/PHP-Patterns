@@ -1,8 +1,8 @@
 <?php
 
-namespace Product\OS;
+namespace ViktorovIO\Library\Product\OS;
 
-use Product\Transport\OSProductInterface;
+use ViktorovIO\Library\Product\Transport\OSProductInterface;
 
 class Linux implements OSProductInterface
 {

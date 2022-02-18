@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Creational\Builder;
+namespace ViktorovIO\Library\Patterns\Creational\Builder;
 
-use Product\Transport\Bike;
+use ViktorovIO\Library\Product\Transport\Bike;
 
 class BikeBuilder implements ProductBuilderInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Product\Transport;
+namespace ViktorovIO\Library\Product\Transport;
 
-use Product\ProductInterface;
+use ViktorovIO\Product\Transport\TransportProductInterface;
 
-class Car implements ProductInterface
+class Car implements TransportProductInterface
 {
     private ?int $id;
     private string $type;

@@ -3,12 +3,12 @@
 namespace Patterns\Creational\FactoryMethod;
 
 use Exception;
-use Patterns\Creational\AbstractFactory\ProductFactoryInterface;
-use Product\OS\Linux;
-use Product\OS\MacOS;
-use Product\OS\Windows;
-use Product\ProductInterface;
-use Product\Enum\OSProductTypeEnum;
+use ViktorovIO\Library\Patterns\Creational\AbstractFactory\ProductFactoryInterface;
+use ViktorovIO\Library\Product\OS\Linux;
+use ViktorovIO\Library\Product\OS\MacOS;
+use ViktorovIO\Library\Product\OS\Windows;
+use ViktorovIO\Library\Product\ProductInterface;
+use ViktorovIO\Library\Product\Enum\OSProductTypeEnum;
 
 class OSProductFactory extends FactoryAbstract implements ProductFactoryInterface
 {

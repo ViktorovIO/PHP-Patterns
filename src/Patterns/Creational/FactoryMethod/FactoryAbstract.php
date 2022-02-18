@@ -1,8 +1,8 @@
 <?php
 
-namespace Patterns\Creational\FactoryMethod;
+namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
-use Product\ProductInterface;
+use ViktorovIO\Library\Product\ProductInterface;
 
 abstract class FactoryAbstract
 {
