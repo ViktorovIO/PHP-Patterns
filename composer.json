@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ViktorovIO\\": "src/"
+      "ViktorovIO\\Library\\": "src/"
     }
   },
   "require-dev": {

@@ -2,8 +2,6 @@
 
 namespace ViktorovIO\Library\Product\OS;
 
-use ViktorovIO\Library\Product\Transport\OSProductInterface;
-
 class Windows implements OSProductInterface
 {
     private ?int $id;

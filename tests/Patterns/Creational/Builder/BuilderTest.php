@@ -3,6 +3,7 @@
 namespace ViktorovIO\Library\Patterns\Creational\Builder;
 
 use Exception;
+use PHPUnit\Framework\TestCase;
 use ViktorovIO\Library\Product\Transport\Bike;
 use ViktorovIO\Library\Product\Transport\Bus;
 use ViktorovIO\Library\Product\Transport\Car;

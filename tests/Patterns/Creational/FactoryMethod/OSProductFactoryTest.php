@@ -3,6 +3,7 @@
 namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
+use PHPUnit\Framework\TestCase;
 use ViktorovIO\Library\Product\OS\Linux;
 use ViktorovIO\Library\Product\OS\MacOS;
 use ViktorovIO\Library\Product\OS\Windows;

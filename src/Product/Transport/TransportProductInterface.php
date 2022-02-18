@@ -1,6 +1,6 @@
 <?php
 
-namespace ViktorovIO\Product\Transport;
+namespace ViktorovIO\Library\Product\Transport;
 
 use ViktorovIO\Library\Product\ProductInterface;
 

@@ -3,6 +3,7 @@
 namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
+use PHPUnit\Framework\TestCase;
 use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
 use ViktorovIO\Library\Product\Transport\Bike;
 use ViktorovIO\Library\Product\Transport\Bus;

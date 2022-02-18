@@ -2,8 +2,6 @@
 
 namespace ViktorovIO\Library\Product\Transport;
 
-use ViktorovIO\Product\Transport\TransportProductInterface;
-
 class Car implements TransportProductInterface
 {
     private ?int $id;

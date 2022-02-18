@@ -1,10 +1,10 @@
 <?php
 
-namespace Patterns\Structural\Facade;
+namespace ViktorovIO\Library\Patterns\Structural\Facade;
 
-use Product\Enum\TransportProductTypeEnum;
-use ViktorovIO\Product\Transport\TransportProductInterface;
-use Product\Transport\TransportRepository;
+use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Product\Transport\TransportProductInterface;
+use ViktorovIO\Library\Product\Transport\TransportRepository;
 
 class TransportFacade
 {

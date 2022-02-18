@@ -1,6 +1,6 @@
 <?php
 
-namespace Patterns\Creational\FactoryMethod;
+namespace ViktorovIO\Library\Patterns\Creational\FactoryMethod;
 
 use Exception;
 use ViktorovIO\Library\Patterns\Creational\AbstractFactory\ProductFactoryInterface;

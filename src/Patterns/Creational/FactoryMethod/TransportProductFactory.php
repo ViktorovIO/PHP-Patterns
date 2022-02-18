@@ -7,12 +7,12 @@ use ViktorovIO\Library\Patterns\Creational\AbstractFactory\ProductFactoryInterfa
 use ViktorovIO\Library\Product\Transport\Bike;
 use ViktorovIO\Library\Product\Transport\Bus;
 use ViktorovIO\Library\Product\Transport\Car;
-use ViktorovIO\Library\Product\ProductInterface;
 use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
+use ViktorovIO\Library\Product\Transport\TransportProductInterface;
 
 class TransportProductFactory extends FactoryAbstract implements ProductFactoryInterface
 {
-    public function make(string $productType): ProductInterface
+    public function make(string $productType): TransportProductInterface
     {
         switch ($productType) {
             case TransportProductTypeEnum::BIKE:

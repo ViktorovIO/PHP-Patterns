@@ -1,6 +1,6 @@
 <?php
 
-namespace ViktorovIO\Product\Transport;
+namespace ViktorovIO\Library\Product\Transport;
 
 use Doctrine\DBAL\Connection;
 use Exception;
@@ -102,10 +102,13 @@ SQL,
         switch ($result['type']) {
             case TransportProductTypeEnum::CAR:
                 $product = new Car();
+                break;
             case TransportProductTypeEnum::BUS:
                 $product = new Bus();
+                break;
             case TransportProductTypeEnum::BIKE:
                 $product = new Bike();
+                break;
             default:
                 throw new Exception('Unknown type');
         }

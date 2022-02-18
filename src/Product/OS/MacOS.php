@@ -2,8 +2,6 @@
 
 namespace ViktorovIO\Library\Product\OS;
 
-use ViktorovIO\Library\Product\Transport\OSProductInterface;
-
 class MacOS implements OSProductInterface
 {
     private ?int $id;
