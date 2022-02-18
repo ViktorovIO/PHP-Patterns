@@ -2,7 +2,7 @@
 
 namespace ViktorovIO\Library\Patterns\Structural\DependencyInjection;
 
-use Patterns\Structural\Facade\TransportFacade;
+use ViktorovIO\Library\Patterns\Structural\Facade\TransportFacade;
 use ViktorovIO\Library\Product\Enum\TransportProductTypeEnum;
 use ViktorovIO\Library\Product\Transport\TransportRepository;
 
