@@ -1,0 +1,20 @@
+{
+  "name": "php-patterns",
+  "description": "PHP Patterns",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "ext-gettext": "*",
+    "ext-mbstring": "*",
+    "ext-mysqli": "*",
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "doctrine/dbal": "2.10.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ViktorovIO\\": "src/"
+    }
+  }
+}
